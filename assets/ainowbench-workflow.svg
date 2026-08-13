@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">AINowBench workflow</title>
+  <desc id="desc">Download, verify, benchmark, review, and optionally compare.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071522"/>
+      <stop offset="1" stop-color="#102a47"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#17baff"/>
+      <stop offset=".55" stop-color="#2774ff"/>
+      <stop offset="1" stop-color="#ff8a1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="360" rx="26" fill="url(#bg)"/>
+  <text x="70" y="67" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">From installer to verified result</text>
+  <text x="70" y="101" fill="#8fb2d5" font-family="Segoe UI, Arial, sans-serif" font-size="18">A local-first workflow with optional online comparison.</text>
+  <line x1="150" y1="205" x2="1250" y2="205" stroke="url(#line)" stroke-width="9" stroke-linecap="round"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(155 205)">
+      <circle r="50" fill="#0b2d4f" stroke="#16b9ff" stroke-width="5"/>
+      <path d="M0 -24 V16 M-15 2 L0 18 L15 2 M-23 29 H23" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="91" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">DOWNLOAD</text>
+      <text y="117" text-anchor="middle" fill="#7fa4c8" font-size="15">official source</text>
+    </g>
+    <g transform="translate(430 205)">
+      <circle r="50" fill="#102b52" stroke="#3d7dff" stroke-width="5"/>
+      <path d="M-21 1 L-6 18 L25 -21" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="91" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">VERIFY</text>
+      <text y="117" text-anchor="middle" fill="#7fa4c8" font-size="15">integrity check</text>
+    </g>
+    <g transform="translate(705 205)">
+      <circle r="50" fill="#19264d" stroke="#746aff" stroke-width="5"/>
+      <path d="M-25 20 A34 34 0 0 1 25 20 M0 10 L21 -12" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+      <circle r="7" fill="#ff8a1f"/>
+      <text y="91" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">BENCHMARK</text>
+      <text y="117" text-anchor="middle" fill="#7fa4c8" font-size="15">guided full suite</text>
+    </g>
+    <g transform="translate(980 205)">
+      <circle r="50" fill="#25303e" stroke="#f49a35" stroke-width="5"/>
+      <rect x="-25" y="-28" width="50" height="58" rx="5" fill="none" stroke="#ffffff" stroke-width="6"/>
+      <line x1="-14" y1="-12" x2="14" y2="-12" stroke="#ffffff" stroke-width="5"/>
+      <line x1="-14" y1="2" x2="14" y2="2" stroke="#ffffff" stroke-width="5"/>
+      <line x1="-14" y1="16" x2="8" y2="16" stroke="#ffffff" stroke-width="5"/>
+      <text y="91" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">REVIEW</text>
+      <text y="117" text-anchor="middle" fill="#7fa4c8" font-size="15">local reports</text>
+    </g>
+    <g transform="translate(1255 205)">
+      <circle r="50" fill="#352a25" stroke="#ff8a1f" stroke-width="5"/>
+      <circle cx="-15" cy="-4" r="9" fill="none" stroke="#ffffff" stroke-width="5"/>
+      <circle cx="15" cy="-4" r="9" fill="none" stroke="#ffffff" stroke-width="5"/>
+      <path d="M-31 25 C-29 8 -1 7 0 25 M0 25 C1 7 29 8 31 25" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+      <text y="91" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">COMPARE</text>
+      <text y="117" text-anchor="middle" fill="#7fa4c8" font-size="15">optional upload</text>
+    </g>
+  </g>
+</svg>

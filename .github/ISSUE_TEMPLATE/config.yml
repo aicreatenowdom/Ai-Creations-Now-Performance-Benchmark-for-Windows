@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Official AINowBench download
+    url: https://ainowbench.com/download.html
+    about: Download the current production installer and review its published integrity information.
+  - name: AINowBench instructions
+    url: https://ainowbench.com/instructions.html
+    about: Review the official run guide before opening a support issue.
+  - name: Private security report
+    url: https://aicreatenow.com/
+    about: Contact AI Creations Now privately for security-sensitive matters.
+  - name: AUTO Deployment support
+    url: https://aicreatenow.com/autodeploy.html
+    about: Use the official product channel for purchase, licensing, installation, and commercial support.

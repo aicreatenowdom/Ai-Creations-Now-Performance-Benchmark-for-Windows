@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">AINowBench 6.0.5 Production</title>
+  <desc id="desc">Product card for the free Windows performance benchmark from AI Creations Now.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061422"/>
+      <stop offset="1" stop-color="#102a49"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#16b9ff"/>
+      <stop offset=".62" stop-color="#1d7cff"/>
+      <stop offset="1" stop-color="#ff8a1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="330" rx="26" fill="url(#bg)"/>
+  <rect x="0" y="0" width="14" height="330" rx="7" fill="url(#bar)"/>
+  <circle cx="1030" cy="165" r="118" fill="#0b2039" stroke="#168fff" stroke-width="4"/>
+  <path d="M947 186 A90 90 0 0 1 1113 186" fill="none" stroke="#173653" stroke-width="18" stroke-linecap="round"/>
+  <path d="M947 186 A90 90 0 0 1 1086 113" fill="none" stroke="url(#bar)" stroke-width="18" stroke-linecap="round"/>
+  <line x1="1030" y1="165" x2="1085" y2="116" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="1030" cy="165" r="12" fill="#ff8a1f"/>
+  <text x="1028" y="236" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">6.0.5</text>
+  <text x="1028" y="263" text-anchor="middle" fill="#8fcfff" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="650" letter-spacing="3">PRODUCTION</text>
+
+  <text x="58" y="82" fill="#8fcfff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">FREE WINDOWS PERFORMANCE BENCHMARK</text>
+  <text x="55" y="142" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="800">AINowBench</text>
+  <text x="58" y="186" fill="#d9e7f7" font-family="Segoe UI, Arial, sans-serif" font-size="24">Measure graphics, processor, storage, and memory performance.</text>
+  <rect x="58" y="214" width="775" height="4" rx="2" fill="url(#bar)"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="650">
+    <text x="58" y="264" fill="#ffffff">44 RESULT ROWS</text>
+    <text x="258" y="264" fill="#ffffff">4 WEIGHTED CATEGORIES</text>
+    <text x="566" y="264" fill="#ffffff">NO ACCOUNT</text>
+    <text x="737" y="264" fill="#ffffff">OPTIONAL COMPARISON</text>
+  </g>
+  <text x="58" y="300" fill="#7fa4c8" font-family="Segoe UI, Arial, sans-serif" font-size="16">x64 Windows • local reports • deterministic scoring • permanent result receipts</text>
+</svg>

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you reference AINowBench in published work, please cite the software and link to the official website."
+title: "AI Creations Now Performance Benchmark"
+type: software
+authors:
+  - family-names: "Strippoli"
+    given-names: "Dominick"
+    affiliation: "AI Creations Now Software Development"
+version: "6.0.5"
+date-released: "2026-07-31"
+url: "https://ainowbench.com/"
+repository-code: "https://github.com/aicreatenowdom/Ai-Creations-Now-Performance-Benchmark-for-Windows"
+keywords:
+  - "Windows benchmark"
+  - "PC performance"
+  - "graphics benchmark"
+  - "processor benchmark"
+  - "storage benchmark"
+  - "memory benchmark"
+  - "AINowBench"

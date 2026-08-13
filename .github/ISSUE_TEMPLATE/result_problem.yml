@@ -1,0 +1,65 @@
+name: AINowBench result or upload problem
+description: Report a non-sensitive problem with local reports, result submission, recovery, or the comparison pages.
+title: "[AINowBench Result] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share only the smallest useful, redacted evidence. Remove personal, customer, account, and private result information.
+
+  - type: input
+    id: version
+    attributes:
+      label: AINowBench version
+      placeholder: "6.0.5 Production"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Problem area
+      options:
+        - Local PDF, TXT, HTML, or CSV report
+        - Initial online submission
+        - Automatic retry
+        - Manual Retry Upload
+        - Completed-result recovery
+        - Result verification
+        - Online result page
+        - Comparison database
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows edition and build
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the last successful step and the first failed step.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Redacted status or error text
+      description: Include only the smallest useful non-sensitive excerpt.
+      render: text
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I removed personal, customer, account, and private result information.
+          required: true
+        - label: This is not a security-sensitive report.
+          required: true

@@ -1,0 +1,50 @@
+name: Feature request
+description: Suggest a public product, documentation, usability, reporting, or benchmark improvement.
+title: "[Feature Request] "
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product or area
+      options:
+        - AINowBench
+        - AUTO Deployment
+        - Planned developer publishing utility
+        - Company GitHub and documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Explain the user need before describing the preferred implementation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected user impact
+      description: Who benefits, and how would success be measured?
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This request contains no private, customer, account, or security-sensitive information.
+          required: true
