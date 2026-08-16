@@ -1,44 +1,32 @@
-# Proprietary License and Rights Notice
+# AINowBench Proprietary License and Rights Notice
 
 Copyright © 2026 AI Creations Now Software Development. All rights reserved.
 
 ## Repository content
 
-Unless a specific file states otherwise, the software, documentation, artwork, screenshots, logos, product names, release materials, text, configuration examples, and other content in this repository are proprietary to AI Creations Now Software Development.
+This public repository contains AINowBench documentation, artwork, screenshots, policies, integrity information, issue forms, and approved release materials. It does not publish the proprietary AINowBench source code, receiver implementation, private infrastructure, credentials, customer information, or unpublished build materials.
 
-Public access to this repository does not grant permission to:
+Public access does not grant permission to:
 
-- Repackage or redistribute AI Creations Now software
-- Remove or alter copyright, branding, signature, or integrity information
-- Represent a modified file as an official AI Creations Now release
-- Use AI Creations Now names, logos, or product artwork to imply affiliation or endorsement
-- Publish proprietary source, private infrastructure, licensing logic, or customer data
-- Sell, sublicense, mirror, or create derivative commercial distributions without written permission
+- Repackage, resell, mirror, or redistribute AINowBench without written permission
+- Remove or alter copyright, branding, Authenticode, integrity, or verification information
+- Represent a modified file as an official AINowBench release
+- Publish proprietary source code, private configuration, credentials, tokens, or customer data
+- Use AI Creations Now names, logos, screenshots, or artwork to imply affiliation or endorsement
+- Create derivative commercial distributions except where applicable law expressly permits it
 
-## Software downloads
+## Free release status
 
-AINowBench is offered as a free desktop edition through official AI Creations Now distribution channels. “Free” describes the price charged to the end user; it does not place the software, artwork, or source code in the public domain and does not automatically make the software open source.
+AINowBench is offered as free desktop software through official AI Creations Now distribution channels. “Free” describes the price charged to the end user; it does not place the software, artwork, documentation, or source code in the public domain and does not make the product open source.
 
-AUTO Deployment is commercial proprietary software subject to its purchase and license terms.
+## Official release verification
 
-Planned software has no final license until an official release states one.
-
-## Documentation use
-
-You may link to public repository pages and quote brief portions for commentary, review, support, or news reporting where allowed by law and with clear attribution. Substantial copying, republication, commercial reuse, or removal of attribution requires written permission.
+Treat a file as official only when it comes from `ainowbench.com`, `aicreatenow.com`, or a release asset published by the GitHub account `aicreatenowdom`. Verify the published SHA-256 value and Windows Authenticode information before execution.
 
 ## Third-party components
 
-Third-party tools, libraries, product names, logos, and trademarks remain subject to their own licenses and owners’ rights. Nothing in this notice changes those rights.
-
-See [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md).
+Third-party tools, runtimes, libraries, trademarks, and services remain subject to their respective licenses and owners' rights. See [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md).
 
 ## No warranty
 
-To the maximum extent allowed by applicable law, public repository materials are provided without a guarantee that they will meet every environment, purpose, compatibility requirement, or availability expectation. Official product terms, purchase terms, privacy policies, and release documentation control where they apply.
-
-## Permission requests
-
-Use the official AI Creations Now company website for licensing or permission questions:
-
-**https://aicreatenow.com/**
+To the maximum extent permitted by law, repository materials are provided without a guarantee that they will satisfy every environment, compatibility requirement, security policy, or availability expectation. Official release documentation and website terms control where applicable.

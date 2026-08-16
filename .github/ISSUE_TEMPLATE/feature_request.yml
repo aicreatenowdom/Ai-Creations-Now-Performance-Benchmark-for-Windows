@@ -1,16 +1,22 @@
-name: Feature request
-description: Suggest a public product, documentation, usability, reporting, or benchmark improvement.
-title: "[Feature Request] "
+name: AINowBench feature request
+description: Suggest an AINowBench benchmark, documentation, usability, compatibility, or reporting improvement.
+title: "[AINowBench Feature] "
 body:
   - type: dropdown
-    id: product
+    id: area
     attributes:
-      label: Product or area
+      label: AINowBench area
       options:
-        - AINowBench
-        - AUTO Deployment
-        - Planned developer publishing utility
-        - Company GitHub and documentation
+        - Graphics testing
+        - Processor testing
+        - Storage testing
+        - Memory testing
+        - Scoring and comparison
+        - Local reports
+        - Result upload and recovery
+        - Hardware detection
+        - Compatibility
+        - Documentation and usability
         - Other
     validations:
       required: true
@@ -19,7 +25,7 @@ body:
     id: problem
     attributes:
       label: What problem would this solve?
-      description: Explain the user need before describing the preferred implementation.
+      description: Explain the AINowBench user need before describing the preferred implementation.
     validations:
       required: true
 
@@ -38,8 +44,7 @@ body:
   - type: textarea
     id: impact
     attributes:
-      label: Expected user impact
-      description: Who benefits, and how would success be measured?
+      label: Expected benchmark or user impact
 
   - type: checkboxes
     id: confirmation

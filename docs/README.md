@@ -1,12 +1,8 @@
-# Documentation Index
+# AINowBench Documentation Index
 
-## Company
+This documentation tree is dedicated exclusively to AINowBench.
 
-- [About AI Creations Now](./company/ABOUT.md)
-- [Software catalog](../PRODUCTS.md)
-- [Public roadmap](../ROADMAP.md)
-
-## AINowBench
+## Product documentation
 
 - [Product overview](./ainowbench/README.md)
 - [Installation](./ainowbench/INSTALLATION.md)
@@ -19,11 +15,6 @@
 - [6.0.5 release notes](./ainowbench/RELEASE_6.0.5.md)
 - [SHA-256 checksum](./ainowbench/SHA256SUMS.txt)
 
-## Other software
-
-- [AUTO Deployment](./autodeploy/README.md)
-- [Microsoft Signing Automation — planned](./microsoft-signing-automation/README.md)
-
 ## Repository policies
 
 - [Security](../SECURITY.md)
@@ -32,3 +23,7 @@
 - [Code of Conduct](../CODE_OF_CONDUCT.md)
 - [License and rights](../LICENSE.md)
 - [Third-party notices](../THIRD_PARTY_NOTICES.md)
+
+## Company
+
+- [About AI Creations Now Software Development](./company/ABOUT.md)

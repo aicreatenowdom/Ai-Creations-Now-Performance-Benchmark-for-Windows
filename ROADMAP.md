@@ -1,56 +1,30 @@
-# Public Software Roadmap
+# AINowBench Public Roadmap
 
-This roadmap communicates direction without publishing private implementation details or promising dates that have not been approved.
+This roadmap is limited to AINowBench and communicates product direction without exposing proprietary implementation details or promising unapproved dates.
 
-## Available now
+## Current production release
 
 ### AINowBench 6.0.5 Production
 
-- Free native x64 Windows benchmark
-- Four-category Production 6.0 scoring model
-- 44 result rows across graphics, processor, storage, and memory analysis
-- Detailed local PDF, TXT, CSV, HTML, and diagnostic output
-- Optional server-validated comparison result and permanent receipt
-- Signed installer with a published SHA-256 digest
+- Native Windows x64 benchmark
+- 44 fixed result rows
+- Four-category weighted score model
+- Local PDF, TXT, CSV, HTML, and diagnostic evidence
+- Optional server-validated comparison result
+- Signed installer and published SHA-256 digest
 
-### AUTO Deployment Production 4.7
+## Continuing priorities
 
-- Guided Windows operations deployment
-- Monitoring, alerts, audits, reporting, and local evidence
-- Master Command Center and controlled Remote Desktop actions
-- Commercial lifetime single-machine licensing for supported systems
+- Preserve consistent, comparable production workloads
+- Expand hardware compatibility without changing established scoring casually
+- Improve diagnostics for failed or skipped tests
+- Strengthen result transparency and report clarity
+- Improve recovery from interrupted uploads
+- Maintain clear release-integrity and verification instructions
+- Continue validation across laptops, desktops, workstations, physical servers, and virtual systems
 
-## Planned next
+Any scoring, test-suite, or compatibility change must be validated before it is promoted to production.
 
-### Microsoft Signing Automation
+## Public-repository boundary
 
-The planned public utility is intended to simplify legitimate Microsoft signing workflows for authorized users.
-
-Proposed goals:
-
-1. Let the user choose a supported file through Windows Explorer.
-2. Detect required Microsoft and .NET prerequisites.
-3. Guide authentication through the authorized Microsoft account flow.
-4. Preserve the original file before attempting a signing operation.
-5. Submit the file through an official Microsoft signing service available to the user.
-6. Verify the completed Authenticode signature and timestamp.
-7. Produce a readable log and clear success or failure result.
-8. Avoid storing credentials, access tokens, or private signing material in the repository or application package.
-
-Current distribution intent: **free software with optional donations**.
-
-No public binary exists yet. The product name, supported file types, Microsoft service requirements, release date, and final licensing terms remain subject to production validation and approval.
-
-## Future repository organization
-
-As additional software becomes public, each production product should receive:
-
-- A dedicated project page or repository
-- Current signed release assets
-- Release notes and version history
-- Installation and verification instructions
-- Privacy and security documentation
-- Structured issue templates
-- A clearly identified support boundary
-
-Private source code, licensing systems, signing credentials, API secrets, receiver logic, and security-sensitive infrastructure will remain outside public repositories.
+This roadmap applies only to AINowBench. Other AI Creations Now products are maintained in their own separate repositories.
